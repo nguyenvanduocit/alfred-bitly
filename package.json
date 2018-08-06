@@ -1,0 +1,20 @@
+{
+  "name": "alfred-bitly",
+  "version": "1.0.0",
+  "description": "Bitly for alfred",
+  "author": {
+    "name": "Duoc Nguyen",
+    "email": "nguyenvanduocit@gmail.com",
+    "url": "12bit.vn"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "*",
+    "bitly": "^6.0.8",
+    "clipboardy": "^1.2.3",
+    "is-url": "^1.2.4"
+  }
+}
